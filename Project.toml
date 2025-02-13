@@ -1,3 +1,4 @@
 name = "PiccoloMultidocs"
+uuid = "46b20c90-705b-4343-b51e-eec7e31cee4a"
 authors = ["Aaron Trowbridge <aaron.j.trowbridge@gmail.com> and contributors"]
-
+version = "0.1.0"
