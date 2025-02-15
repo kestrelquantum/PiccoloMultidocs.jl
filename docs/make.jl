@@ -89,7 +89,7 @@ MultiDocumenter.make(
         index_versions = ["stable"],
         engine = MultiDocumenter.FlexSearch,
     ),
-    rootpath = "/Piccolo.jl/",
+    rootpath = "/PiccoloMultidocs.jl/",
     canonical_domain = "https://kestrelquantum.github.io/",
     sitemap = true,
 )
