@@ -30,13 +30,13 @@ docs = [
         upstream = joinpath(clonedir, "Piccolo"),
         path = "Piccolo",
         name = "Piccolo",
-        giturl = "https://github.com/kestrelquantum/Piccolo.jl.git",
+        giturl = "https://github.com/harmoniqs/Piccolo.jl.git",
     ),
     MultiDocumenter.MultiDocRef(
         upstream = joinpath(clonedir, "PiccoloQuantumObjects"),
         path = "PiccoloQuantumObjects",
         name = "Quantum Objects",
-        giturl = "https://github.com/kestrelquantum/PiccoloQuantumObjects.jl.git",
+        giturl = "https://github.com/harmoniqs/PiccoloQuantumObjects.jl.git",
     ),
     MultiDocumenter.DropdownNav(
         "Optimal Controls",
@@ -45,7 +45,7 @@ docs = [
                 upstream = joinpath(clonedir, "QuantumCollocation"),
                 path = "QuantumCollocation",
                 name = "QuantumCollocation.jl",
-                giturl = "https://github.com/kestrelquantum/QuantumCollocation.jl.git",
+                giturl = "https://github.com/harmoniqs/QuantumCollocation.jl.git",
                 # or use ssh instead for private repos:
                 # giturl = "git@github.com:JuliaComputing/DataSets.jl.git",
             ),
@@ -53,7 +53,7 @@ docs = [
                 upstream = joinpath(clonedir, "QuantumCollocationCore"),
                 path = "QuantumCollocationCore",
                 name = "QuantumCollocationCore.jl",
-                giturl = "https://github.com/kestrelquantum/QuantumCollocationCore.jl.git",
+                giturl = "https://github.com/harmoniqs/QuantumCollocationCore.jl.git",
             ),
         ],
     ),
@@ -64,13 +64,13 @@ docs = [
                 upstream = joinpath(clonedir, "NamedTrajectories"),
                 path = "NamedTrajectories",
                 name = "NamedTrajectories.jl",
-                giturl = "https://github.com/kestrelquantum/NamedTrajectories.jl.git",
+                giturl = "https://github.com/harmoniqs/NamedTrajectories.jl.git",
             ),
             MultiDocumenter.MultiDocRef(
                 upstream = joinpath(clonedir, "TrajectoryIndexingUtils"),
                 path = "TrajectoryIndexingUtils",
                 name = "TrajectoryIndexingUtils.jl",
-                giturl = "https://github.com/kestrelquantum/TrajectoryIndexingUtils.jl.git",
+                giturl = "https://github.com/harmoniqs/TrajectoryIndexingUtils.jl.git",
             ),
         ],
     ),
@@ -78,7 +78,7 @@ docs = [
         upstream = joinpath(clonedir, "PiccoloPlots"),
         path = "PiccoloPlots",
         name = "Plots",
-        giturl = "https://github.com/kestrelquantum/PiccoloPlots.jl.git",
+        giturl = "https://github.com/harmoniqs/PiccoloPlots.jl.git",
     ),
 ]
 
@@ -89,8 +89,8 @@ MultiDocumenter.make(
         index_versions = ["stable"],
         engine = MultiDocumenter.FlexSearch,
     ),
-    rootpath = "/PiccoloMultidocs.jl/",
-    canonical_domain = "https://kestrelquantum.github.io/",
+    rootpath = "/",
+    canonical_domain = "https://docs.harmoniqs.co/",
     sitemap = true,
 )
 
